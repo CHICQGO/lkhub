@@ -3,7 +3,8 @@ I was bored out of my mind looking for a script to use, but really? I just want 
 
 If you are a user who likes to see menu, use the script below:
 ```lua
-loadstring(game:HttpGet'https://raw.githubusercontent.com/YoutubeGam/lkhub/main/Anotherlass.lua')()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/YoutubeGam/lkhub/main/Anotherlass.lua')();
+loadstring(game:HttpGet("https://lkhub.net/s/loader.lua",true))();
 ```
 
 If you prefer without the menu we also have
