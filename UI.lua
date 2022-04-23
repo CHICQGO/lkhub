@@ -294,11 +294,11 @@ function finity.new(isdark, gprojectName, thinProject)
 	if projectName then
 		self2.tip.Text = projectName
 	else
-		self2.tip.Text = "Press '".. string.sub(tostring(self.ToggleKey), 14) .."' to hide this menu"
+		self2.tip.Text = "Anotherlass - Press '".. string.sub(tostring(self.ToggleKey), 14) .."' to hide this menu"
 	end
 
 	function finity.settitle(text)
-		self2.tip.Text = tostring(text)
+		self2.tip.Text = 'Anotherlass - '..tostring(text)
 	end
 
 	local separator = self:Create("Frame", {
