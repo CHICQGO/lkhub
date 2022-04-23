@@ -170,7 +170,7 @@ function finity.new(isdark, gprojectName, thinProject)
 		finityData.ToggleKey = NewKey
 
 		if not projectName then
-			self2.tip.Text = "'Anotherlass - Press '".. string.sub(tostring(NewKey), 14) .."' to hide this menu"
+			self2.tip.Text = "Anotherlass - Press ".. string.sub(tostring(NewKey), 14) .."' to hide this menu"
 		end
 
 		if finityData.UpConnection then
@@ -292,7 +292,7 @@ function finity.new(isdark, gprojectName, thinProject)
 	})
 
 	if projectName then
-		self2.tip.Text = projectName
+		self2.tip.Text = 'Anotherlass - '..projectName
 	else
 		self2.tip.Text = "Anotherlass - Press '".. string.sub(tostring(self.ToggleKey), 14) .."' to hide this menu"
 	end
